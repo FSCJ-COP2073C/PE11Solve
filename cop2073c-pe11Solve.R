@@ -1,9 +1,11 @@
 # cop2073c-pe11Solve.R
 # D. Singletary
 # 10/26/24
-# Use the tidyverse and base R functions to analyze a dataset
+# Use the tidyverse, modelr, and base R functions to analyze a dataset
 
-library(ggplot2)
+# install.packages('tidyverse') # uncomment if required
+# install.packages('modelr') # uncomment if required
+library(tidyverse)
 library(modelr)
 
 # 1. create tibble from mtcars hp and mpg columns
