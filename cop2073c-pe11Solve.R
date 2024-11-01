@@ -38,3 +38,17 @@ print(t_r)
 
 # 8. frequency polygon
 ggplot(t_r, aes(resid)) + geom_freqpoly(binwidth = 0.5)
+
+# Anaylsis:
+# This program analyzes the relationship between horsepower (hp) and miles per 
+# gallon (mpg) in the mtcars dataset using linear regression. The linear model 
+# fitted with lm reveals a negative relationship between horsepower and fuel 
+# efficiency, as the coefficients indicate that mpg decreases as hp increases. 
+# The fitted line, plotted alongside the data points, visually confirms this 
+# trend. A second plot, showing predicted mpg values based on the data grid, 
+# aligns closely with the regression line, illustrating that the trend continues 
+# in the predicted values. The residuals plot (showing the differences between 
+# observed and predicted mpg values) suggests that most predictions are close 
+# to the actual values, though some variation exists, indicating that while 
+# the model captures the general trend, it may not explain all the variability
+# in mpg.
